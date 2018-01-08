@@ -34,6 +34,7 @@ public class SelectionActivity extends AppCompatActivity implements View.OnClick
                 startActivity(new Intent(SelectionActivity.this, MainActivity.class));
                 break;
             case R.id.btn_retrofit_example:
+                startActivity(new Intent(SelectionActivity.this, RetrofitActivity.class));
                 break;
         }
     }
